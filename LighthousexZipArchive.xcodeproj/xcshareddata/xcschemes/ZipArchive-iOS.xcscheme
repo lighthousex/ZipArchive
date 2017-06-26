@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AFF75A231C37279600F450AC"
-               BuildableName = "ZipArchive.framework"
-               BlueprintName = "ZipArchive-Mac"
-               ReferencedContainer = "container:ZipArchive.xcodeproj">
+               BlueprintIdentifier = "B423AE191C0DF76A0004A2F1"
+               BuildableName = "LighthousexZipArchive.framework"
+               BlueprintName = "LighthousexZipArchive-iOS"
+               ReferencedContainer = "container:LighthousexZipArchive.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AFF75A231C37279600F450AC"
-            BuildableName = "ZipArchive.framework"
-            BlueprintName = "ZipArchive-Mac"
-            ReferencedContainer = "container:ZipArchive.xcodeproj">
+            BlueprintIdentifier = "B423AE191C0DF76A0004A2F1"
+            BuildableName = "LighthousexZipArchive.framework"
+            BlueprintName = "LighthousexZipArchive-iOS"
+            ReferencedContainer = "container:LighthousexZipArchive.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AFF75A231C37279600F450AC"
-            BuildableName = "ZipArchive.framework"
-            BlueprintName = "ZipArchive-Mac"
-            ReferencedContainer = "container:ZipArchive.xcodeproj">
+            BlueprintIdentifier = "B423AE191C0DF76A0004A2F1"
+            BuildableName = "LighthousexZipArchive.framework"
+            BlueprintName = "LighthousexZipArchive-iOS"
+            ReferencedContainer = "container:LighthousexZipArchive.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

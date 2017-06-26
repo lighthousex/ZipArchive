@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		01DB08731D88095600D335B9 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 389869341D5BC30100F18782 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		389869351D5BC30100F18782 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 389869341D5BC30100F18782 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87ACF3EA1D2DAFAD00ED2F7E /* SSZipArchive+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACF3E91D2DAFAD00ED2F7E /* SSZipArchive+Swift.swift */; };
 		AFF75A2D1C3727F000F450AC /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFF75A2E1C37280200F450AC /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B423AE481C0DF7950004A2F1 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFF75A2F1C37280200F450AC /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B423AE491C0DF7950004A2F1 /* SSZipArchive.m */; };
@@ -82,9 +81,8 @@
 
 /* Begin PBXFileReference section */
 		389869341D5BC30100F18782 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
-		87ACF3E91D2DAFAD00ED2F7E /* SSZipArchive+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SSZipArchive+Swift.swift"; sourceTree = "<group>"; };
-		AFF75A241C37279600F450AC /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B423AE1A1C0DF76A0004A2F1 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF75A241C37279600F450AC /* LighthousexZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LighthousexZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B423AE1A1C0DF76A0004A2F1 /* LighthousexZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LighthousexZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B423AE271C0DF7950004A2F1 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
 		B423AE281C0DF7950004A2F1 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
 		B423AE291C0DF7950004A2F1 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
@@ -154,8 +152,8 @@
 		B423AE1B1C0DF76A0004A2F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B423AE1A1C0DF76A0004A2F1 /* ZipArchive.framework */,
-				AFF75A241C37279600F450AC /* ZipArchive.framework */,
+				B423AE1A1C0DF76A0004A2F1 /* LighthousexZipArchive.framework */,
+				AFF75A241C37279600F450AC /* LighthousexZipArchive.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,7 +167,6 @@
 				B423AE3E1C0DF7950004A2F1 /* minizip */,
 				B423AE481C0DF7950004A2F1 /* SSZipArchive.h */,
 				B423AE491C0DF7950004A2F1 /* SSZipArchive.m */,
-				87ACF3E91D2DAFAD00ED2F7E /* SSZipArchive+Swift.swift */,
 				B423AE4A1C0DF7950004A2F1 /* ZipArchive.h */,
 			);
 			path = SSZipArchive;
@@ -279,9 +276,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AFF75A231C37279600F450AC /* ZipArchive-Mac */ = {
+		AFF75A231C37279600F450AC /* LighthousexZipArchive-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "ZipArchive-Mac" */;
+			buildConfigurationList = AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "LighthousexZipArchive-Mac" */;
 			buildPhases = (
 				AFF75A1F1C37279600F450AC /* Sources */,
 				AFF75A201C37279600F450AC /* Frameworks */,
@@ -292,14 +289,14 @@
 			);
 			dependencies = (
 			);
-			name = "ZipArchive-Mac";
+			name = "LighthousexZipArchive-Mac";
 			productName = "ZipArchive-Mac";
-			productReference = AFF75A241C37279600F450AC /* ZipArchive.framework */;
+			productReference = AFF75A241C37279600F450AC /* LighthousexZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B423AE191C0DF76A0004A2F1 /* ZipArchive-iOS */ = {
+		B423AE191C0DF76A0004A2F1 /* LighthousexZipArchive-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "ZipArchive-iOS" */;
+			buildConfigurationList = B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "LighthousexZipArchive-iOS" */;
 			buildPhases = (
 				B423AE151C0DF76A0004A2F1 /* Sources */,
 				B423AE161C0DF76A0004A2F1 /* Frameworks */,
@@ -310,9 +307,9 @@
 			);
 			dependencies = (
 			);
-			name = "ZipArchive-iOS";
+			name = "LighthousexZipArchive-iOS";
 			productName = ZipArchive;
-			productReference = B423AE1A1C0DF76A0004A2F1 /* ZipArchive.framework */;
+			productReference = B423AE1A1C0DF76A0004A2F1 /* LighthousexZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -334,7 +331,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "ZipArchive" */;
+			buildConfigurationList = B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "LighthousexZipArchive" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -346,8 +343,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B423AE191C0DF76A0004A2F1 /* ZipArchive-iOS */,
-				AFF75A231C37279600F450AC /* ZipArchive-Mac */,
+				B423AE191C0DF76A0004A2F1 /* LighthousexZipArchive-iOS */,
+				AFF75A231C37279600F450AC /* LighthousexZipArchive-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +394,6 @@
 			files = (
 				B423AE5C1C0DF7950004A2F1 /* pwd2key.c in Sources */,
 				B423AE581C0DF7950004A2F1 /* hmac.c in Sources */,
-				87ACF3EA1D2DAFAD00ED2F7E /* SSZipArchive+Swift.swift in Sources */,
 				B423AE4D1C0DF7950004A2F1 /* aescrypt.c in Sources */,
 				B423AE5E1C0DF7950004A2F1 /* sha1.c in Sources */,
 				B423AE631C0DF7950004A2F1 /* ioapi.c in Sources */,
@@ -431,7 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = LighthousexZipArchive;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -453,7 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = LighthousexZipArchive;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -569,7 +565,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = LighthousexZipArchive;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -593,7 +589,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.ZipArchive;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = LighthousexZipArchive;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -602,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "ZipArchive-Mac" */ = {
+		AFF75A291C37279600F450AC /* Build configuration list for PBXNativeTarget "LighthousexZipArchive-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFF75A2A1C37279600F450AC /* Debug */,
@@ -611,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "ZipArchive" */ = {
+		B423AE141C0DF76A0004A2F1 /* Build configuration list for PBXProject "LighthousexZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B423AE201C0DF76A0004A2F1 /* Debug */,
@@ -620,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "ZipArchive-iOS" */ = {
+		B423AE221C0DF76A0004A2F1 /* Build configuration list for PBXNativeTarget "LighthousexZipArchive-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B423AE231C0DF76A0004A2F1 /* Debug */,
