@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'LighthousexZipArchive'
-  s.version      = '1.8.6'
+  s.version      = '1.8.7'
   s.summary      = 'Utility class for zipping and unzipping files on iOS, tvOS, watchOS, and Mac.'
   s.description  = 'SSZipArchive is a simple utility class for zipping and unzipping files on iOS, tvOS, watchOS, and Mac.'
   s.homepage     = 'https://github.com/lighthousex/ZipArchive'
